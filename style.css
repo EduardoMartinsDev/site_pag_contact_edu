@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F37029; /* Cor Laranja Lamborghini */
+    background-image: linear-gradient(to right, #FFA500, #F37029); /* Gradiente mais claro */
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #353434;
+    padding: 20px;
+    color: #fff;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ /* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(243, 235, 235, 0.9); /* Fundo branco com opacidade para contraste */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra para destacar o conteúdo */
+    text-align: justify;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F37029; /* Cor de fundo laranja Lamborghini */
+    overflow: hidden; /* Para esconder barras de rolagem */
+}
+
+/* Estilos para os ícones */
+.social-icons {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    animation: moveIcons 5s ease-in-out infinite alternate; /* Animação de movimento */
+}
+
+.social-icons a {
+    font-size: 48px; /* Tamanho maior dos ícones */
+    color: #000; /* Cor preta */
+    margin: 10px; /* Espaçamento entre os ícones */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #555; /* Cor de hover mais escura */
+}
+
+/* Animação de movimento dos ícones */
+@keyframes moveIcons {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Cor de fundo */
+}
+
+.container2 {
+    max-width: 400px;
+    margin: 115px auto;
+    padding: 20px;
+    background-image: linear-gradient(to right, #f2f4f7, #16d804ee); /* Gradiente mais claro */
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 8%;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 50px;
+    resize: unset;
+    
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Cor do botão */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-group button:hover {
+    background-color: #0056b3; /* Cor do botão no hover */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Cor de fundo */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    margin-top: 0;
+    color: #007bff; /* Cor do texto */
+}
+
+p {
+    font-size: 18px;
+    color: #333; /* Cor do texto */
+}
+
+.icon {
+    font-size: 48px;
+    color: #007bff; /* Cor do ícone */
+    animation: spin 2s linear infinite; /* Animação de rotação */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
